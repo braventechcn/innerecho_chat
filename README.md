@@ -1,4 +1,4 @@
 # innerecho_chat
 
-App 首页
-![首页](./首页.png)
+InnerEcho Chat App HomePage
+![Home-page](./home-page.png)

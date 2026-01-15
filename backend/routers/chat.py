@@ -53,8 +53,7 @@ def post_message(payload: ChatRequest = Body(...)) -> ChatResponse:
     """
     Send a message to the chat service and return the model reply.
     Args:
-        payload: ChatRequest 包含 user_id 和 message 字段的请求体
-        请求体必须符合 ChatRequest 结构，自动校验
+        payload: ChatRequest 包含 user_id 和 message 字段的请求体（请求体必须符合 ChatRequest 结构，自动校验）
     Returns:
         ChatResponse 包含用户ID、原始消息、模型回复、模型名称和延迟（毫秒）
     """
