@@ -1,5 +1,6 @@
 """
 Minimal OpenAI-compatible client for DashScope Qwen (API)endpoints.
+把底层 HTTP 调用和异常处理封装起来，对外只暴露一个 generate 方法，方便服务层调用
 """
 
 # 使用 Python 3.7+ 中引入的一个未来特性导入，用于推迟类型注解的求值
